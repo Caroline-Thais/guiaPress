@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const User = require("./User");
 const bcrypt = require("bcryptjs");
+const adminAuth = require("../middlewares/AdminAuth");
 
 router.get("/admin/users", (req, res) => {
     User.findAll().then(users => {
@@ -9,11 +10,11 @@ router.get("/admin/users", (req, res) => {
     });
 });
 
-router.get("/admin/users/create", (req, res) => {
+router.get("/admin/users/create", adminAuth, (req, res) => {
     res.render("admin/users/create");
 })
 
-router.post("/users/create", (req, res) => {
+router.post("/users/create", adminAuth, (req, res) => {
     var email = req.body.email;
     var password = req.body.password;
 

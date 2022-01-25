@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 
 //Sessions
 app.use(session({
-    secret: "qualquercoisa", cookie: {maxAge: 30000}
+    secret: "qualquercoisa", cookie: {maxAge: 2400000}
 }))
 
 //Database

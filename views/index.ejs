@@ -5,10 +5,10 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h1 class="display-4">Bem vindo(a) ao Guia Press!</h1>
-        <p class="lead">Este é um blog sobre Programação.</p>
+        <h1 class="display-4">Welcome to Guia Press!</h1>
+        <p class="lead">Blog about programming.</p>
         <hr class="my-4">
-        <p>Vários artigos interessantes.</p>
+        <p>Many interesting articles.</p>
       </div>
 
     <% articles.forEach(article => { %>
@@ -16,7 +16,7 @@
             <div class="card-header">
                 <h2><%= article.title %></h2>
             <div class="card-body">
-                <a href="/<%= article.slug %>" class="btn btn-secondary">Ler artigo</a>
+                <a href="/<%= article.slug %>" class="btn btn-secondary">Read</a>
             </div>
         </div>
    <% }) %>
