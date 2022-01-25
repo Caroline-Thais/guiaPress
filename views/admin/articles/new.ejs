@@ -4,20 +4,20 @@
     <hr>
     <div class="card">
         <div class="card-header">
-            <h2>Novo artigo</h2>
+            <h2>New article</h2>
         </div>
         <div class="card-body">
             <form method="POST" action="/articles/save">
-                <input class="form-control" type="text" name="title" placeholder="Defina o título da categoria"><br>
-                <textarea class="form-control" placeholder="Escreva o artigo aqui." name="body" id="article"></textarea><br>
-                <label>Categoria:</label>
+                <input class="form-control" type="text" name="title" placeholder="Article title"><br>
+                <textarea class="form-control" placeholder="Write the article here." name="body" id="article"></textarea><br>
+                <label>Category:</label>
                 <select name="category" class="form-control">
                     <% categories.forEach((category) => { %>
                         <option value="<%= category.id%>"><%= category.title%></option>
                    <% }) %>
                 </select>
                 <br>
-                <button class="btn btn-secondary">Cadastrar</button>
+                <button class="btn btn-secondary">Register</button>
             </form>
         </div>
     </div>

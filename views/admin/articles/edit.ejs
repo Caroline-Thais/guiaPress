@@ -4,14 +4,14 @@
     <hr>
     <div class="card">
         <div class="card-header">
-            <h2>Editar artigo</h2>
+            <h2>Edit article</h2>
         </div>
         <div class="card-body">
             <form method="POST" action="/articles/update">
                 <input type="hidden" value="<%= article.id %>" name="id">
-                <input class="form-control" type="text" name="title" placeholder="Defina o título do artigo" value="<%= article.title %>"><br>
-                <input class="form-control" placeholder="Escreva o artigo aqui." name="body" id="article" value="<%= article.body %>"></<br>
-                <label>Categoria:</label>
+                <input class="form-control" type="text" name="title" placeholder="Article title" value="<%= article.title %>"><br>
+                <input class="form-control" name="body" id="article" value="<%= article.body %>"></<br>
+                <label>Category:</label>
                 <select name="category" class="form-control">
                     <% categories.forEach((category) => { %>
                         <% if(category.id == article.categoryId) { %>
@@ -22,7 +22,7 @@
                    <% }) %>
                 </select>
                 <br>
-                <button class="btn btn-secondary">Atualizar</button>
+                <button class="btn btn-secondary">Update</button>
             </form>
         </div>
     </div>

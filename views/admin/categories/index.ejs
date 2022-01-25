@@ -1,16 +1,16 @@
 <%- include ('../../partials/header.ejs'); %>
 <%- include ('../../partials/navbar.ejs'); %>
 <div class="container">
-    <hr>
-    <h2>Categorias</h2>
-    <a class="btn btn-secondary" href="/admin/categories/new">Criar nova categoria</a>
+    
+    <h2>Categories</h2>
+    <a class="btn btn-secondary" href="/admin/categories/new">Create new category</a><hr>
     <table class="table table-bordered">
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Título</th>
+                <th>Title</th>
                 <th>Slug</th>
-                <th>Ações</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -20,11 +20,11 @@
                 <th><%= category.title %></th>
                 <th><%= category.slug %></th>
                 <th>
-                    <a href="/admin/categories/edit/<%= category.id %>" class="btn btn-warning">Editar</a>
+                    <a href="/admin/categories/edit/<%= category.id %>" class="btn btn-warning">Edit</a>
 
                     <form method="POST" action="/categories/delete" style="display: inline;" onsubmit="confirmarDelete(event, this)">
                         <input type="hidden" name="id" value="<%= category.id %>">
-                        <button class="btn btn-danger">Deletar</button>
+                        <button class="btn btn-danger">Delete</button>
                     </form>
                 </th> 
 
@@ -38,7 +38,7 @@
 <script>
     function confirmarDelete(event, form){
         event.preventDefault();
-        var decision = confirm("Tem certeza que deseja deletar a categoria?");
+        var decision = confirm("Are you sure you want to delete?");
         if (decision){
             form.submit();     
         }
