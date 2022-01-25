@@ -8,8 +8,7 @@
         <h1 class="display-4">Bem vindo(a) ao Guia Press!</h1>
         <p class="lead">Este é um blog sobre Programação.</p>
         <hr class="my-4">
-        <p>Vários artigos interessates.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <p>Vários artigos interessantes.</p>
       </div>
 
     <% articles.forEach(article => { %>
@@ -17,7 +16,7 @@
             <div class="card-header">
                 <h2><%= article.title %></h2>
             <div class="card-body">
-                <a href="/<%= article.slug %>" class="btn btn-success">Ler artigo</a>
+                <a href="/<%= article.slug %>" class="btn btn-secondary">Ler artigo</a>
             </div>
         </div>
    <% }) %>

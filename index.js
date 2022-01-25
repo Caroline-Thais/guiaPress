@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const connection = require("./database/database");
+const session = require("express-session");
 
 const categoriesController = require("./categories/CategoriesController");
 const articlesController = require("./articles/ArticlesController");
@@ -20,6 +21,11 @@ app.use(express.static("public"));
 //Body parser
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
+
+//Sessions
+app.use(session({
+    secret: "qualquercoisa", cookie: {maxAge: 30000}
+}))
 
 //Database
 

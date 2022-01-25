@@ -43,4 +43,37 @@ router.post("/users/create", (req, res) => {
     });
 });
 
+router.get("/login", (req, res) => {
+    res.render("admin/users/login");
+});
+
+router.post("/authenticate", (req, res) => {
+    var email = req.body.email;
+    var password = req.body.password;
+
+    User.findOne({where:{email: email}}).then(user => {
+        if(user != undefined){//Se existe um usuário com esse email
+            //Validar senha
+            var correct = bcrypt.compareSync(password, user.password);
+        
+        if(correct){
+            req.session.user = {
+                id: user.id,
+                email: user.email
+            }
+            res.redirect("/admin/articles");
+        }else{
+            res.redirect("/login");
+        }
+        }else{
+            res.redirect("/login");
+        }
+    });
+});
+
+router.get("/logout", (req, res) => {
+    req.session.user = undefined;
+    res.redirect("/");
+});
+
 module.exports = router;
