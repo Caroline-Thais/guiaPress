@@ -1,5 +1,6 @@
 # guiaPress
-Web Application using Node.js, Express, MySQL, EJS and Sequelize.
+Blog created with node.js with administrative panel where register users can create articles and add new categories.
+Technologies used: Node.js, Express, MySQL, EJS and Sequelize.
 
 ![image](https://user-images.githubusercontent.com/76595905/151465805-2c04572e-5a3a-40b7-baf3-fb4c0071004b.png)
 
