@@ -2,14 +2,14 @@
 <%- include ('../../partials/homenavbar.ejs'); %>
 <body>
 <br>
-<div class="container">
+<div class="container mt-4">
 
     <% result.articles.rows.forEach(article => { %>
         <div class="card">
             <div class="card-header">
                 <h2><%= article.title %></h2>
             <div class="card-body">
-                <a href="/<%= article.slug %>" class="btn btn-secondary">Read</a>
+                <a href="/<%= article.slug %>" class="btn btn-outline-warning">Read</a>
             </div>
         </div>
    <% }) %>
@@ -18,15 +18,16 @@
     <div class="col col-12">
 
         <% if (result.page > 2){ %>
-            <a style="float: left" href="/articles/page/<%= result.page - 1 %>">< Prev</a>
+            <a style="float: left; color: black;" href="/articles/page/<%= result.page - 1 %>">< Prev</a>
         <% }else if(result.page == 2){ %>
-            <a style="float:left" href="/"> < Prev</a>
+            <a style="float:left; color: black;" href="/"> < Prev</a>
         <% } %>
 
 
         <% if(result.next) {%>
             <a style="float: right" href="/articles/page/<%= result.page + 1 %>">Next ></a>
         <% } %>
+        <br>
     </div>
 </div>
 </div>
@@ -35,72 +36,15 @@
 <%- include ('../../partials/footer.ejs'); %>
 
 <style>
-    body{
-    background: #FFEFBA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
-
-
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    float: left;
-    shape-outside: circle();
-    shape-margin: 10px;
-}
-
-.p-hl{
-    width: 60%;
-}
-
-#art{
-    text-align: end;
-}
-
-.container ul{
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    gap: 20px;
-    padding-left: 7em;
-    
-}
-    @media all and (max-width: 800px) {
-        .container ul {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
-        justify-content: space-around;
-        }
+body{
+        background: #FFEFBA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
-    /* Small screens */
-    @media all and (max-width: 500px) {
-        .container ul {
-        /* On small screens, we are no longer using row direction but column */
-        flex-direction: column;
-        padding-left: 5em;
-        }
+    h2{
+        padding-left: 2%;
     }
-    @media all and (max-width: 500px) and (orientation: landscape){
-        .container ul{
-            display: flex;
-            padding-left: 10em
-        }
-        #pagination{
-            padding-bottom: 10%;
-        }
-    }
-
-.container li{
-    
-    text-align: center;
-    background-color: #ffffff6e;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;   
-}
 
 </style>

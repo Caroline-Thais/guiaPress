@@ -37,6 +37,7 @@ app.use(session({
 
 //Express Validator
 const { body, validationResult } = require('express-validator');
+const { get } = require("express/lib/response");
 
 //Database
 
@@ -64,6 +65,7 @@ app.get("/", (req, res) => {
     }   );  
     });
 });
+
     app.get("/:slug", (req, res) => {
         var slug = req.params.slug;
         Article.findOne({
@@ -104,9 +106,6 @@ app.get("/", (req, res) => {
             })
         });
 
-        app.get("/teste", (req, res) => {
-            res.render("teste");
-        });
 
 app.listen(8081, () => {
     console.log("O servidor etá rodando.")
