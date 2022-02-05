@@ -1,16 +1,41 @@
-<div id="conteudo-artigos">
+<div class="container">
 
-    <h4 id="art">Articles</h4><hr>
-    <ul>
-        <% articles.forEach(article => { %>
-            <li>
-                <p>
-                    <br><br>
-                    <h2><%= article.title %></h2>
-                    <a href="/<%= article.slug %>" class="btn btn-outline-warning">Read</a>
-                </p>
-            </li>   
-        <% }) %>
-    </ul>
+<h4 id="art">Articles</h4><hr>
+    <div id="conteudo-artigos">
 
-    <%- include ('./pagination.ejs'); %>
+        <ul>
+            <% articles.forEach(article => { %>
+                <li class="estilo shadow-lg">
+                    <p>
+                        <br><br>
+                        <h2><%= article.title %></h2>
+                    
+                        <a href="/<%= article.slug %>" class="btn btn-outline-warning">Read</a>
+                    </p>
+                </li>   <br>
+            <% }) %>
+        </ul>
+</div>
+
+<style>
+body{
+        background: #FFEFBA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+#art{
+    text-align: end;
+}
+
+ul{
+    list-style: none;
+}
+
+.estilo{
+    
+  width: 500px;
+  height: 300px;
+  background: white;
+}
+</style>

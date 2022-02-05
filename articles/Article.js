@@ -15,6 +15,7 @@ const Article = connection.define('articles', {
         type: Sequelize.TEXT,
         allowNull: false
     }
+  
 });
 
 Category.hasMany(Article);//Uma categoria tem muitos artigos
