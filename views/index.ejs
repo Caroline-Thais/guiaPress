@@ -1,31 +1,20 @@
 <%- include ('partials/header.ejs'); %>
 <%- include ('partials/homenavbar.ejs'); %>
-<body>
+
 <br>
 <div class="container">
 
-    <div class="jumbotron">
-        <h1 class="display-4">Welcome to Guia Press!</h1>
-        <p class="lead">Programming blog</p>
-        <hr class="my-4">
-        <p>Many interesting articles.</p>
-      </div>
+    <%- include ('partials/introducao.ejs'); %>    
 
-    <% articles.forEach(article => { %>
-        <div class="card">
-            <div class="card-header">
-                <h2><%= article.title %></h2>
-            <div class="card-body">
-                <a href="/<%= article.slug %>" class="btn btn-secondary">Read</a>
-            </div>
-        </div>
-   <% }) %>
+    <%- include ('partials/maisconteudo.ejs'); %>
 
-   <div class="row">
-        <div class="col col-12">
-            <a style="float: right;" href="/articles/page/2">Next ></a>
-        </div>
-   </div>
-   </div>
-</body>
+    <%- include ('partials/conteudo-artigos.ejs'); %>
+
+    
+
+    
+
+</div>
+
+
 <%- include ('partials/footer.ejs'); %>

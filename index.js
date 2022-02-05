@@ -3,6 +3,8 @@ const app = express();
 const bodyParser = require("body-parser");
 const connection = require("./database/database");
 const session = require("express-session");
+const flash = require("express-flash");
+const validator = require('validator');
 
 const categoriesController = require("./categories/CategoriesController");
 const articlesController = require("./articles/ArticlesController");
@@ -17,15 +19,24 @@ app.set("view engine", "ejs");
 
 //Static
 app.use(express.static("public"));
-
+  
 //Body parser
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+//Flash
+app.use(flash());
+
 //Sessions
 app.use(session({
-    secret: "qualquercoisa", cookie: {maxAge: 2400000}
+    secret: "qualquercoisa",  
+    resave: false,
+    saveUninitialized: true,
+    cookie: {maxAge: 2400000}
 }))
+
+//Express Validator
+const { body, validationResult } = require('express-validator');
 
 //Database
 
@@ -91,7 +102,11 @@ app.get("/", (req, res) => {
             }).catch(err => {
                 res.redirect("/");
             })
-        })
+        });
+
+        app.get("/teste", (req, res) => {
+            res.render("teste");
+        });
 
 app.listen(8081, () => {
     console.log("O servidor etá rodando.")

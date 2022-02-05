@@ -3,6 +3,10 @@ const router = express.Router();
 const User = require("./User");
 const bcrypt = require("bcryptjs");
 const adminAuth = require("../middlewares/AdminAuth");
+const session = require("express-session");
+const flash = require("express-flash"); 
+const bodyParser = require("body-parser"); 
+var validator = require('validator');
 
 router.get("/admin/users", (req, res) => {
     User.findAll().then(users => {
@@ -15,6 +19,8 @@ router.get("/admin/users/create", adminAuth, (req, res) => {
 })
 
 router.post("/users/create", adminAuth, (req, res) => {
+
+
     var email = req.body.email;
     var password = req.body.password;
 
@@ -44,6 +50,8 @@ router.post("/users/create", adminAuth, (req, res) => {
     });
 });
 
+
+
 router.get("/login", (req, res) => {
     res.render("admin/users/login");
 });
@@ -71,6 +79,7 @@ router.post("/authenticate", (req, res) => {
         }
     });
 });
+
 
 router.get("/logout", (req, res) => {
     req.session.user = undefined;

@@ -1,0 +1,16 @@
+<div id="conteudo-artigos">
+
+    <h4 id="art">Articles</h4><hr>
+    <ul>
+        <% articles.forEach(article => { %>
+            <li shadow-lg>
+                <p>
+                    <br><br>
+                    <h2><%= article.title %></h2>
+                    <a href="/<%= article.slug %>" class="btn btn-outline-warning">Read</a>
+                </p>
+            </li>   
+        <% }) %>
+    </ul>
+
+    <%- include ('./pagination.ejs'); %>
