@@ -38,9 +38,9 @@ router.post("/users/create", adminAuth, (req, res) => {
         email: email,
         password: hash
     }).then(() => {
-        res.redirect("/");
+        res.redirect("/admin/articles");
     }).catch((err) => {
-        res.redirect("/");
+        res.redirect("/admin/articles");
     });
 
     
@@ -70,7 +70,7 @@ router.post("/authenticate", (req, res) => {
                 id: user.id,
                 email: user.email
             }
-            res.redirect("/admin/articles");
+            res.redirect("/admin/users/panel");
         }else{
             res.redirect("/login");
         }
@@ -79,6 +79,10 @@ router.post("/authenticate", (req, res) => {
         }
     });
 });
+
+router.get("/admin/users/panel", (req, res) => {
+    res.render("admin/users/panel");
+})
 
 
 router.get("/logout", (req, res) => {
