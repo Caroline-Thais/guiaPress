@@ -1,6 +1,13 @@
 <div class="container"><br>
 
 <h4 id="art">Articles</h4><hr>
+
+<% categories.forEach(category => { %>
+    <button type="button" class="btn btn-outline-warning">
+        <a id="linkid" href="/category/<%= category.slug%>"><%= category.title%></a>
+    </button>
+ <% }) %>
+ 
     <div id="conteudo-artigos">
 
         <ul>
@@ -43,7 +50,7 @@ ul{
 
 .container ul a{
     text-decoration: none;
-    color: #ffc107;
+    color: gray;
     list-style-type: none;
 }
 #conteudo-artigos ul a:hover{
