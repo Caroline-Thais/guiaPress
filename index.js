@@ -113,7 +113,7 @@ app.get("/", (req, res) => {
         order: [
             ['id','DESC']
         ],
-        limit: 8
+        limit: 4
     }).then(articles => { 
         Category.findAll().then(categories => {
         res.render("index", {articles: articles, categories: categories});
