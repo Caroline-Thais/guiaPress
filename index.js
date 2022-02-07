@@ -14,6 +14,8 @@ const Article = require("./articles/Article");
 const Category = require("./categories/Category");
 const User = require("./users/User");
 
+const port = process.env.PORT || 8081;
+
 //View engine
 app.set("view engine", "ejs");
 
