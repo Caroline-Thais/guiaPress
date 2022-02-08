@@ -1,6 +1,6 @@
 # guiaPress
-Blog created with node.js with administrative panel where register users can create articles and add new categories.
-Technologies used: Node.js, Express, MySQL, EJS and Sequelize.
+Blog created with node.js with administrative panel where registered users can create articles and add new categories.
+Technologies used: Node.js, Express, MySQL, EJS, Sequelize, Tinymce, HTML and CSS.
 
 ![Capturar1](https://user-images.githubusercontent.com/76595905/152989004-d9b17bd4-faa3-4c70-9ca1-cdea9aabbffc.PNG)
 
