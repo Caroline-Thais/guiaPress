@@ -7,7 +7,7 @@ Tecnologias utilizadas: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.
 Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 
-
+[![Watch the video](https://user-images.githubusercontent.com/76595905/153665218-090e21da-abd3-4f5f-95c5-dd578a0f4524.PNG)](https://www.youtube.com/watch?v=6q2BV7f6mSA)
 
 ![Capturar1](https://user-images.githubusercontent.com/76595905/152989004-d9b17bd4-faa3-4c70-9ca1-cdea9aabbffc.PNG)
 
