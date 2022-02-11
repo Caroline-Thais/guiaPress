@@ -1,11 +1,13 @@
 # guiaPress
-<<<<<<< HEAD
-Blog created with node.js with administrative panel where register users can create articles and add new categories.
+
+Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.
+Tecnologias utilizadas: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
+---
+
+Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.
 Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
-=======
-Blog created with node.js with administrative panel where registered users can create articles and add new categories.
-Technologies used: Node.js, Express, MySQL, EJS, Sequelize, Tinymce, HTML and CSS.
->>>>>>> 63b306d655d3de2b463f0a8d4793f74009f41b37
+
+
 
 ![Capturar1](https://user-images.githubusercontent.com/76595905/152989004-d9b17bd4-faa3-4c70-9ca1-cdea9aabbffc.PNG)
 
