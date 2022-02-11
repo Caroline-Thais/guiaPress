@@ -1,7 +1,7 @@
 # guiaPress 
 
 Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>
-Tecnologias utilizadas: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
+Tecnologias utilizadas: Node.js, Express, MySQL, EJS, Slugify e Sequelize.
 ---
 Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.<br>
 Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
