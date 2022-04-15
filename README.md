@@ -28,3 +28,9 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 ![pic-2](https://user-images.githubusercontent.com/76595905/151467177-e5bf8cb9-c2f9-4933-be25-c13f92e67613.PNG)
 
 ![pic-3](https://user-images.githubusercontent.com/76595905/151467185-8df06125-74a9-4ce0-8e0c-26c7ba8e5f32.PNG)
+
+---
+<div align="center">
+Desenvolvido por THAÍS CAROLINE SILVA 
+<img src="https://cdn-icons-png.flaticon.com/512/2618/2618497.png" height="40em"> 
+</div>
