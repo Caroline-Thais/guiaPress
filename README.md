@@ -28,6 +28,9 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 ✔️EJS<br>
 ✔️Slugify<br>
 ✔️Sequelize<br>
+✔️HTML<br>
+✔️CSS<br>
+✔️BootStrap<br>
 
 
 
