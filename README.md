@@ -1,7 +1,6 @@
 # guiaPress 
 
-<a href="http://137.184.132.95/" target="_blank">Veja a aplicação AQUI</a>
----
+<!--<a href="http://137.184.132.95/" target="_blank">Veja a aplicação AQUI</a>-->
 
 Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>
 Tecnologias utilizadas: Node.js, Express, MySQL, EJS, Slugify e Sequelize.
