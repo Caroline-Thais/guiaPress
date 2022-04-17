@@ -161,7 +161,8 @@ app.get("/category/:slug", (req, res) => {
         })
     });
 
-
+//const PORT = process.env.PORT || 3000
 app.listen(3000, () => {
     console.log("O servidor etá rodando.")
 });
+
