@@ -1,18 +1,39 @@
-# guiaPress 
+<div align="center">
+  
+![logo](https://user-images.githubusercontent.com/76595905/163720995-b1fbb3c6-7879-4b34-b611-5096e25d4bec.PNG)  
+  
+</div>
 
-<!--<a href="http://137.184.132.95/" target="_blank">Veja a aplicação AQUI</a>-->
 
+GuiaPress
+---
 Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>
-Tecnologias utilizadas: Node.js, Express, MySQL, EJS, Slugify e Sequelize.
 ---
 Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.<br>
 Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 
-<p><img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-video-notifications-justicon-lineal-color-justicon.png" height="30em"> Vídeo:</p>
+<div align="center">
+  
+<img src="https://github.com/Caroline-Thais/guiaPress/blob/master/Animacao.gif" height="300" />
+  
+</div>
 
-[![Watch the video](https://user-images.githubusercontent.com/76595905/153665218-090e21da-abd3-4f5f-95c5-dd578a0f4524.PNG)](https://www.youtube.com/watch?v=6q2BV7f6mSA)
 
-<p><img src="https://img.icons8.com/plasticine/344/stack-of-photos.png" height="40em"> Galeria:</p>
+<img src="https://cdn-icons.flaticon.com/png/512/6106/premium/6106900.png?token=exp=1650219156~hmac=79629928bf8874135551d7532c46876b" height="40em"> Tecnologias:
+---
+
+✔️Node.js<br>
+✔️Express<br>
+✔️MySQL<br>
+✔️EJS<br>
+✔️Slugify<br>
+✔️Sequelize<br>
+
+
+
+<img src="https://img.icons8.com/plasticine/344/stack-of-photos.png" height="40em"> Galeria:
+---
+
 
 ![Capturar1](https://user-images.githubusercontent.com/76595905/152989004-d9b17bd4-faa3-4c70-9ca1-cdea9aabbffc.PNG)
 
@@ -27,6 +48,12 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 ![pic-2](https://user-images.githubusercontent.com/76595905/151467177-e5bf8cb9-c2f9-4933-be25-c13f92e67613.PNG)
 
 ![pic-3](https://user-images.githubusercontent.com/76595905/151467185-8df06125-74a9-4ce0-8e0c-26c7ba8e5f32.PNG)
+
+
+<img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-video-notifications-justicon-lineal-color-justicon.png" height="30em"> Vídeo:
+---
+
+[![Watch the video](https://user-images.githubusercontent.com/76595905/153665218-090e21da-abd3-4f5f-95c5-dd578a0f4524.PNG)](https://www.youtube.com/watch?v=6q2BV7f6mSA)
 
 ---
 <div align="center">
