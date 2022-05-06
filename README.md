@@ -19,7 +19,7 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 </div>
 
 
-<img src="https://cdn-icons.flaticon.com/png/512/6106/premium/6106900.png?token=exp=1650219156~hmac=79629928bf8874135551d7532c46876b" height="40em"> Tecnologias:
+<img src="https://cdn-icons.flaticon.com/png/512/3715/premium/3715301.png?token=exp=1651877660~hmac=dadf23dbfd9c9e69fe7246aeaec541b4" height="40em"> Tecnologias:
 ---
 
 ✔️Node.js<br>
