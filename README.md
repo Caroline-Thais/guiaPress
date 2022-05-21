@@ -7,8 +7,7 @@
 
 GuiaPress
 ---
-Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>
----
+<!--Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>-->
 Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.<br>
 Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 
@@ -19,7 +18,8 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 </div>
 
 
-<img src="https://cdn-icons.flaticon.com/png/512/3715/premium/3715301.png?token=exp=1651877660~hmac=dadf23dbfd9c9e69fe7246aeaec541b4" height="40em"> Tecnologias:
+<!--<img src="https://cdn-icons.flaticon.com/png/512/3715/premium/3715301.png?token=exp=1651877660~hmac=dadf23dbfd9c9e69fe7246aeaec541b4" height="40em">--> 
+<img src="https://cdn-icons.flaticon.com/png/512/4365/premium/4365271.png?token=exp=1653172478~hmac=73d27498abd2c8351d1379dcd98054ab" height="40em">    Technologies:
 ---
 
 ✔️Node.js<br>
@@ -34,7 +34,7 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 
 
 
-<img src="https://img.icons8.com/plasticine/344/stack-of-photos.png" height="40em"> Galeria:
+<img src="https://img.icons8.com/plasticine/344/stack-of-photos.png" height="40em"> Pictures:
 ---
 
 
@@ -53,13 +53,13 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify and Sequelize.
 ![pic-3](https://user-images.githubusercontent.com/76595905/151467185-8df06125-74a9-4ce0-8e0c-26c7ba8e5f32.PNG)
 
 
-<img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-video-notifications-justicon-lineal-color-justicon.png" height="30em"> Vídeo:
+<img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-video-notifications-justicon-lineal-color-justicon.png" height="30em"> Video:
 ---
 
 [![Watch the video](https://user-images.githubusercontent.com/76595905/153665218-090e21da-abd3-4f5f-95c5-dd578a0f4524.PNG)](https://www.youtube.com/watch?v=6q2BV7f6mSA)
 
 ---
 <div align="center">
-Desenvolvido por THAÍS CAROLINE SILVA 
+Developed by THAÍS CAROLINE SILVA 
 <img src="https://cdn-icons-png.flaticon.com/512/2618/2618497.png" height="40em"> 
 </div>
