@@ -55,7 +55,7 @@ Tecnologias:
 ![pic-3](https://user-images.githubusercontent.com/76595905/151467185-8df06125-74a9-4ce0-8e0c-26c7ba8e5f32.PNG)
 
 
-<img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-video-notifications-justicon-lineal-color-justicon.png" height="30em"> Video:
+<img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-video-notifications-justicon-lineal-color-justicon.png" height="30em"> Vídeo:
 ---
 
 [![Watch the video](https://user-images.githubusercontent.com/76595905/153665218-090e21da-abd3-4f5f-95c5-dd578a0f4524.PNG)](https://www.youtube.com/watch?v=6q2BV7f6mSA)
