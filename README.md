@@ -7,9 +7,9 @@
 
 GuiaPress
 ---
-<!--Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>-->
-Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.<br>
-Technologies used: Node.js, Express, MySQL, EJS, Slugify, Sequelize, Bootstrap, HTML and CSS.
+Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>
+<!--Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.<br>-->
+<!--Technologies used: Node.js, Express, MySQL, EJS, Slugify, Sequelize, Bootstrap, HTML and CSS.-->
 
 <div align="center">
   
@@ -18,8 +18,10 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify, Sequelize, Bootstrap, 
 </div>
 
 
-<!--<img src="https://cdn-icons.flaticon.com/png/512/3715/premium/3715301.png?token=exp=1651877660~hmac=dadf23dbfd9c9e69fe7246aeaec541b4" height="40em">--> 
-<img src="https://cdn-icons.flaticon.com/png/512/4365/premium/4365271.png?token=exp=1653172478~hmac=73d27498abd2c8351d1379dcd98054ab" height="40em">    Technologies:
+<!--<img src="https://cdn-icons.flaticon.com/png/512/3715/premium/3715301.png?token=exp=1651877660~hmac=dadf23dbfd9c9e69fe7246aeaec541b4" height="40em"> 
+<img src="https://cdn-icons.flaticon.com/png/512/4365/premium/4365271.png?token=exp=1653172478~hmac=73d27498abd2c8351d1379dcd98054ab" height="40em">-->  
+
+Tecnologias:
 ---
 
 ✔️Node.js<br>
@@ -34,7 +36,7 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify, Sequelize, Bootstrap, 
 
 
 
-<img src="https://img.icons8.com/plasticine/344/stack-of-photos.png" height="40em"> Pictures:
+<img src="https://img.icons8.com/plasticine/344/stack-of-photos.png" height="40em"> Imagens:
 ---
 
 
@@ -60,6 +62,6 @@ Technologies used: Node.js, Express, MySQL, EJS, Slugify, Sequelize, Bootstrap, 
 
 ---
 <div align="center">
-Developed by THAÍS CAROLINE SILVA 
+<!--Developed by-->Desenvolvido por THAÍS CAROLINE SILVA 
 <img src="https://cdn-icons-png.flaticon.com/512/2618/2618497.png" height="40em"> 
 </div>
