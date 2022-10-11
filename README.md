@@ -8,8 +8,8 @@
 GuiaPress
 ---
 Blog criado com node.js com painel administrativo onde usuários cadastrados podem criar, editar e deletar artigos e novas categorias.<br>
-<!--Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.<br>-->
-<!--Technologies used: Node.js, Express, MySQL, EJS, Slugify, Sequelize, Bootstrap, HTML and CSS.-->
+Blog created with node.js with administrative panel where registered users can create, edit and delete articles and add new categories.<br>
+Technologies used: Node.js, Express, MySQL, EJS, Slugify, Sequelize, Bootstrap, HTML and CSS.
 
 <div align="center">
   
